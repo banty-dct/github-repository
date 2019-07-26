@@ -1,0 +1,187 @@
+.pageLoader{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.spinner-grow{
+    color: #b4b4b4;
+}
+.app{
+    padding: 30px 0;
+}
+.userInfo img.profilePic{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.userInfo h1{
+    font-size: 25px;
+    margin: 0 0 3px;
+}
+.userInfo h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: #585858;
+    margin: 0 0 15px;
+}
+.userInfo button{
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-image: linear-gradient(#fafbfc,#eff3f6);
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    outline: 0;
+    border-radius: 3px;
+}
+.userInfo p{
+    font-size: 14px;
+    margin: 0 0 4px;
+}
+.userInfo ul{
+    padding: 0;
+    margin: 0 0 14px;
+    display: block;
+    list-style: none;
+}
+.userInfo li img{
+    width: 17px;
+    opacity: 0.8;
+    margin: 0 10px 0 0;
+}
+.userInfo li span{
+    font-size: 14px;
+}
+.userInfo li a{
+    font-size: 14px;
+    color: #5353c3;
+}
+.userInfo .block{
+    font-size: 13px;
+    color: #919191;
+    cursor: pointer;
+}
+.tabs ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.tabs li{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 15px 5px;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.tabs li:hover{
+    border-color: #ddd;
+}
+.tabs span{
+    background: #ddd;
+    border-radius: 30px;
+    padding: 1px 6px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 0 0 5px;
+}
+.tabs li.active{
+    border-color: #e36209;
+    font-weight: 500;
+}
+.repoList{
+    padding: 30px 0;
+}
+.repoList h2{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+.repoItems{
+    padding: 0 15px 0 0;
+}
+.repoItem{
+    display: block;
+    border: 1px solid #ddd;
+    padding: 15px;
+    padding-bottom: 50px;
+    margin: 0 -15px 15px 0;
+    border-radius: 3px;
+    height: calc(100% - 15px);
+    position: relative;
+}
+.repoItem a.title{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0366d6;
+    margin-bottom: 10px;
+}
+.repoItem p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #717171;
+}
+.repoItem ul{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: #717171;
+}
+.repoItem li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: top;
+}
+.repoItem label{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 5px 0 0;
+}
+.repoItem a.sub {
+    text-decoration: none;
+    color: black;
+}
+.repoItem img{
+    height: 11px;
+    vertical-align: initial;
+    margin: 0 2px 0 0;
+    opacity: 0.8;
+}
+p.note{
+    margin: 0;
+    font-size: 15px;
+}
+@media (max-width: 992px){
+    .tabs span{
+        display: none;
+    }
+    .tabs li {
+        margin: 0 7px 0 0;
+        padding: 10px 5px;
+    }
+}
+@media (max-width: 768px){
+    .userRepo {
+        margin: 20px 0 0;
+    }
+}
+@media (max-width: 480px){
+    .userInfo h1 {
+        font-size: 20px;
+    }
+}
